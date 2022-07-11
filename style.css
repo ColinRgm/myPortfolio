@@ -1,0 +1,765 @@
+body {
+    font-family: "Source Code Pro", monospace;
+    background-color: #1E2337;
+    color: white;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+/* -- NavBar -------------------------------------------------------------------------------------------------------- */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    color: white;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav-item:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    background-color: transparent;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    left: 0;
+    transition: .3s;
+    color: transparent;
+}
+
+.nav-item:not(.is-active):hover:before {
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-indicator {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    transition: .4s;
+    border-radius: 8px 8px 0 0;
+}
+
+.nav-indicator:is(.is-active) {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    height: 5px;
+    border-radius: 8px 8px 0 0;
+}
+
+.is-active strong {
+    font-size: 22px;
+}
+
+/* -- Boutons d'option --------------------------------------------------------------------------------------------- */
+/* ---- Choix de langue ---- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 60px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ---- Switch ---- */
+/* -- Sombre
+.checkbox {
+    margin: 18px 10px 0 10px;
+    width: 39px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: solid 1px #ffffff;
+    transition:
+            border-color 200ms,
+            background-color 200ms;
+    cursor: pointer;
+}
+
+.checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 12px;
+    background-color: #1e2337;
+    transition:
+            width 200ms, height 200ms,
+            transform 200ms, background-color 200ms;
+}
+-- */
+
+/* -- Clair
+.checkbox.on {
+    border-color: #D0BCFF;
+    background-color: #D0BCFF;
+}
+
+.checkbox.on::before {
+    background-color:#381E72;
+    width: 20px;
+    height: 24px;
+    transform: translateX(180px);
+}
+
+.checkbox.on body {
+    background-color: antiquewhite;
+}
+-- */
+
+/* -- Contenu index.html -------------------------------------------------------------------------------------------- */
+.container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    margin: 12%;
+}
+
+.me {
+    position: relative;
+    width: max-content;
+    margin-bottom: 70px;
+}
+
+h2 {
+    margin-left: 90px;
+    width: max-content;
+}
+
+.me::before,
+.me::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.me::before {
+    background-color: #1E2337;
+    animation: typeWriter 4s 50ms steps(33) forwards;
+}
+
+.me::after {
+    width: 0.05em;
+    background-color: #ffffff;
+    animation: typeWriter 4s 50ms steps(33) forwards,
+    blink 600ms steps(33) infinite;
+}
+
+.subtitle {
+    opacity: 0;
+    animation: fadeInUp 50ms ease calc(4s + .5s) forwards;
+}
+
+@keyframes typeWriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+    }
+}
+
+/* -- Contenu portfolio.html ---------------------------------------------------------------------------------------- */
+/* -- Carousel -- */
+.slideshow-container {
+    max-width: 70%;
+    position: relative;
+    margin: 2% auto auto auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.myProject {
+    width: 100%;
+}
+
+/* -- Contenu parcours.html ----------------------------------------------------------------------------------------- */
+.grid-container8 {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: auto;
+    margin: 2% auto;
+    align-content: center;
+    width: max-content;
+    gap: 50px;
+}
+
+.titre {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    font-size: 20px;
+    text-align: right;
+    border-bottom: white 2px solid;
+}
+
+.left {
+    text-align: right;
+    border-right: white solid 2px;
+    padding-right: 25px;
+    font-size: 18px;
+    grid-column: 1 / 2;
+}
+
+strong {
+    font-size: 15px;
+}
+
+/* -- Gauche -- */
+.grid-container9 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-rows: 60px max-content max-content max-content max-content max-content max-content;
+    column-gap: 25px;
+}
+
+.parc {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+/* -- Droite -- */
+.grid-container10 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-rows: 60px max-content max-content max-content max-content;
+    column-gap: 25px;
+}
+
+.prog {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+li {
+    line-height: 30px;
+}
+
+/* -- Contenu passion.html ------------------------------------------------------------------------------------------ */
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100%;
+    margin: 2%;
+    gap: 50px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    gap: 5px;
+    text-align: right;
+    line-height: 25px;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    gap: 25px;
+}
+
+.iceHockey {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.tattoo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: 200px;
+    width: auto;
+    border-radius: 5px;
+}
+
+/* -- Card Tattoo --------------------------------------------------------------------------------------------------- */
+.flip-card {
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.flip-card-back {
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    margin: 0 20px;
+}
+
+#tattoo {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+/* -- Card MMA ------------------------------------------------------------------------------------------------------ */
+.flip-card2 {
+    background-color: transparent;
+    height: 425px;
+    width: 200px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    perspective: 1000px;
+}
+
+.flip-card2:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 200px;
+    height: 425px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+
+}
+
+.flip-card-back2 {
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back2 p {
+    margin: 0 20px;
+}
+
+#mma {
+    width: 200px;
+    height: 425px;
+    border-radius: 15px;
+}
+
+/* -- Card Informatique --------------------------------------------------------------------------------------------- */
+.flip-card3 {
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    perspective: 1000px;
+}
+
+.flip-card3:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front3, .flip-card-back3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.flip-card-back3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back3 p {
+    margin: 0 20px;
+}
+
+#informatique {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* -- Card LHC ------------------------------------------------------------------------------------------------------ */
+.flip-card4 {
+    background-color: transparent;
+    height: 200px;
+    width: 425px;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    perspective: 1000px;
+}
+
+.flip-card4:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front4, .flip-card-back4 {
+    position: absolute;
+    width: 425px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.flip-card-back4 {
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back4 p {
+    margin: 0 20px;
+}
+
+#iceHockey {
+    width: 425px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* -- Contenu Contact ----------------------------------------------------------------------------------------------- */
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: auto 40%;
+    grid-template-rows: 100%;
+    margin: 2%;
+    gap: 25px;
+}
+
+/* ---- Left ---- */
+.grid-container6 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto ;
+    gap: 25px;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid white;
+    width: 50%;
+}
+
+.hrBottom {
+    border: none;
+    border-top: 2px solid white;
+    width: 20%;
+}
+
+/* -- Liens -- */
+
+.grid-container11 {
+    display: inline-grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: max-content;
+    gap: 70px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+.linkedin,
+.mail,
+.github {
+    height: 50px;
+    filter: invert(1);
+}
+
+.cv {
+    background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* ---- Right ---- */
+.grid-container7 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    grid-template-columns: auto 25% auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    gap: 30px;
+    text-align: center;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 0px);
+    transform-origin: left;
+    transition: transform .25s;
+    background-color: #1E2337;
+    padding: 0 10px;
+}
+
+.name:focus-within label,
+.lastname:focus-within label,
+.email:focus-within label,
+.message:focus-within label {
+    transform: translate(0, -19px) scale(.8);
+    color: #d1c5fc;
+}
+
+.name:focus-within #firstname,
+.lastname:focus-within #lastName,
+.email:focus-within #email,
+.subject:focus-within #email,
+.message:focus-within #message {
+    outline-color: #d1c5fc;
+}
+
+#name, #lastname, #email, #subject {
+    height: 30px;
+    border: 2px white solid;
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font: inherit;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+/* -- name -- */
+.name {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    position: relative;
+    padding-right: 25px;
+}
+
+/* -- last name -- */
+.lastname {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    position: relative;
+    padding-right: 25px;
+}
+
+/* -- email -- */
+.email {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    position: relative;
+    padding-right: 25px;
+}
+
+/* -- objet -- */
+.subject {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    position: relative;
+    padding-right: 25px;
+}
+
+/* -- message -- */
+.message {
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    position: relative;
+    padding-right: 25px;
+}
+
+#message {
+    resize: none;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font: inherit;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.message::placeholder {
+    background-color: #1E2337;
+}
+
+/* -- button -- */
+#button {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.send {
+    background-color: #D0BCFF;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}

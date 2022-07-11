@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myPortfolio</title>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="nav-item">Accueil</a>
+    <a href="portfolio.html" class="nav-item">Portfolio</a>
+    <a href="parcours.html" class="nav-item">Parcours</a>
+    <a href="passion.html" class="nav-item">Passions</a>
+    <a href="#" class="nav-item is-active"><strong>Contact</strong></a>
+    <span class="nav-indicator"></span>
+
+    <div class="dropdown">
+        <p>FR ▼</p>
+        <div class="dropdown-content">
+            <a href="en/contactEN.html">EN</a>
+            <!-- <button
+            class="checkbox"
+            role="switch"
+            aria-checked="false"></button> -->
+        </div>
+    </div>
+</nav>
+
+<div class="grid-container5">
+    <div class="grid-container6">
+        <div>
+            <p>Colin Regamey</p>
+            <p>Suisse, Vaud</p>
+            <p>22 ans</p>
+        </div>
+
+        <hr class="hrBottom">
+        <div>
+            <p>Je suis un jeune développeur en première année d'apprentissage.</p>
+            <p>J'habite en Suisse dans le canton de Vaud.</p>
+        </div>
+        <hr>
+
+        <div class="grid-container11">
+            <a href="https://www.linkedin.com/in/colin-regamey-916710179/">
+                <img src="/Icons/linkedin.svg" alt="linkedin" class="linkedin">
+            </a>
+
+            <a href="https://github.com/ColinRgm">
+                <img src="/Icons/github.svg" alt="github" class="github">
+            </a>
+
+            <a href="curriculumVitae.pdf" download>
+                <button class="cv">Télécharger mon CV</button>
+            </a>
+        </div>
+    </div>
+
+    <form method="POST" action="php/form.php">
+        <div class="grid-container7">
+            <div class="name">
+                <label for="name">Prénom</label>
+                <input aria-label="name" type="text" id="name" name="name" placeholder="" required/>
+            </div>
+
+            <div class="lastname">
+                <label for="lastname">Nom</label>
+                <input aria-label="lastname" type="text" id="lastname" name="lastname" placeholder="" required/>
+            </div>
+
+            <div class="email">
+                <label for="email">E-Mail</label>
+                <input aria-label="email" type="text" id="email" name="email" placeholder="" required/>
+            </div>
+
+            <div class="subject">
+                <label for="subject">Sujet</label>
+                <input type="text" aria-label="subject" id="subject" name="subject" placeholder="" required>
+            </div>
+
+            <div class="message">
+                <label for="message">Votre message</label>
+                <textarea aria-label="message" id="message" name="message" placeholder="" required></textarea>
+            </div>
+
+            <input id="button" name="submit" type="submit" value="Envoyer"/>
+
+        </div>
+    </form>
+</div>
+
+<footer>
+    <p class="copyright">© Colin Regamey</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

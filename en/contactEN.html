@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleEN.css">
+    <link rel="stylesheet" href="/responsive/styleEN.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Icons/white.png">
+
+    <title>myPortfolio</title>
+</head>
+<body>
+
+<nav>
+    <a href="indexEN.html" class="nav-item">Home</a>
+    <a href="portfolioEN.html" class="nav-item">Portfolio</a>
+    <a href="careerEN.html" class="nav-item">Career</a>
+    <a href="passionEN.html" class="nav-item">Passions</a>
+    <a href="" class="nav-item is-active"><strong>Contact</strong></a>
+    <span class="nav-indicator"></span>
+
+    <div class="dropdown">
+        <p>EN ▼</p>
+        <div class="dropdown-content">
+            <a href="/contact.html">FR</a>
+            <!-- <button
+            class="checkbox"
+            role="switch"
+            aria-checked="false"></button> -->
+        </div>
+    </div>
+</nav>
+
+<div class="grid-container5">
+    <div class="grid-container6">
+        <div>
+            <p>Colin Regamey</p>
+            <p>Switzerland, Vaud</p>
+            <p>22 years old</p>
+        </div>
+
+        <hr class="hrBottom">
+        <div>
+            <p>I am a young developer in his first year of apprenticeship.</p>
+            <p>I live in Switzerland in the canton of Vaud</p>
+        </div>
+        <hr>
+
+        <div class="grid-container11">
+            <a href="https://www.linkedin.com/in/colin-regamey-916710179/">
+                <img src="../Icons/linkedin.svg" alt="linkedin" class="linkedin">
+            </a>
+
+            <a href="https://github.com/ColinRgm">
+                <img src="../Icons/github.svg" alt="github" class="github">
+            </a>
+
+            <a href="/curriculumVitae.pdf" download>
+                <button class="cv">Download my CV</button>
+            </a>
+
+        </div>
+    </div>
+
+    <form action="#" method="POST">
+        <div class="grid-container7">
+
+            <div class="name">
+                <label for="name">First name</label>
+                <input aria-label="name" type="text" id="name" name="name" placeholder="" required/>
+            </div>
+
+            <div class="lastname">
+                <label for="lastname">Last Name</label>
+                <input aria-label="name" type="text" id="lastname" name="lastname" placeholder="" required/>
+            </div>
+
+            <div class="email">
+                <label for="email">E-Mail</label>
+                <input aria-label="email" type="text" id="email" name="email" placeholder="" required/>
+            </div>
+
+            <div class="subject">
+                <label for="subject">Subject</label>
+                <input type="text" aria-label="subject" id="subject" name="subject" placeholder="" required>
+            </div>
+
+            <div class="message">
+                <label for="message">Your Message</label>
+                <textarea aria-label="message" id="message" name="message" placeholder="" required></textarea>
+            </div>
+
+            <input id="button" type="submit" value="Submit" name="submit"/>
+
+        </div>
+    </form>
+</div>
+
+<footer>
+    <p>© Colin Regamey</p>
+</footer>
+
+<script src="../script.js"></script>
+
+</body>
+</html>

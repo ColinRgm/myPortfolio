@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleEN.css">
+    <link rel="stylesheet" href="/responsive/styleEN.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/responsive/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Icons/white.png">
+
+    <title>myPortfolio</title>
+</head>
+<body>
+
+<nav>
+    <a href="indexEN.html" class="nav-item">Home</a>
+    <a href="#" class="nav-item is-active"><strong>Portfolio</strong></a>
+    <a href="careerEN.html" class="nav-item">Career</a>
+    <a href="passionEN.html" class="nav-item">Passions</a>
+    <a href="contactEN.html" class="nav-item">Contact</a>
+    <span class="nav-indicator"></span>
+
+    <div class="dropdown">
+        <p>EN ▼</p>
+        <div class="dropdown-content">
+            <a href="/portfolio.html">FR</a>
+            <!-- <button
+            class="checkbox"
+            role="switch"
+            aria-checked="false"></button> -->
+        </div>
+    </div>
+</nav>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <a href="https://colinrgm.github.io/myTattooPortfolio">
+                <img src="../Images/projectOne.jpeg" class="myProject" alt="tattooProject" >
+            </a>
+            <div>
+                <p>Here is my first website made only in HTML / CSS.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="https://colinrgm.github.io/tableauDeMoyenne">
+                <img src="../Images/projectTwo.jpeg" class="myProject" alt="averageProject">
+            </a>
+            <div>
+                <p>My second project was an average calculator, my first project in JavaScript.</p>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <footer>
+        <p>© Colin Regamey</p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>

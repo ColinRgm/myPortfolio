@@ -1,0 +1,67 @@
+.container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    margin: 12%;
+}
+
+.me {
+    position: relative;
+    width: max-content;
+    margin-bottom: 70px;
+}
+
+h2 {
+    margin-left: 90px;
+    width: max-content;
+}
+
+.me::before,
+.me::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.me::before {
+    background-color: #1E2337;
+    animation:
+            typeWriter 4s 50ms steps(28) forwards;
+}
+
+.me::after {
+    width: 0.05em;
+    background-color: #ffffff;
+    animation:
+            typeWriter 4s 50ms steps(28) forwards,
+            blink 600ms steps(28) infinite;
+}
+
+.subtitle {
+    opacity: 0;
+    animation:
+            fadeInUp 50ms ease calc(4s + .5s ) forwards;
+}
+
+@keyframes typeWriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+    }
+}
