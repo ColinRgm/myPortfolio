@@ -642,7 +642,7 @@ hr {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     grid-template-columns: auto 25% auto;
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 30px;
     text-align: center;
 }
@@ -763,3 +763,5 @@ label {
     grid-column: 2 / 3;
     grid-row: 6 / 7;
 }
+
+
