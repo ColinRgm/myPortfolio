@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Add icon in the &lt;head&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/passionEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/passionEN.html" afterDir="false" />
-    </list>
+    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Change some small details" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +76,7 @@
       <workItem from="1660199756591" duration="3299000" />
       <workItem from="1660226162370" duration="620000" />
       <workItem from="1660294626338" duration="1892000" />
+      <workItem from="1660648739171" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="Add icon in the &lt;head&gt;">
       <created>1657628459169</created>
@@ -87,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657628459169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chnage my age and some small details">
+      <created>1660648789778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660648789778</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change some small details">
+      <created>1660648850855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660648850855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add icon in the &lt;head&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add icon in the &lt;head&gt;" />
+    <MESSAGE value="Chnage my age and some small details" />
+    <MESSAGE value="Change some small details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change some small details" />
   </component>
 </project>
