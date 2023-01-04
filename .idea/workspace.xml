@@ -4,40 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/at-sign.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/at-sign.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/black.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/dl.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/dl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/downArrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/downArrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Icons/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/icehockey.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icehockey.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/it.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/it.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/mma.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/mma.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/projectOne.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projectOne.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/projectTwo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projectTwo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/tattoo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/tattoo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/careerEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/careerEN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/contactEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contactEN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/indexEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/indexEN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/passionEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/passionEN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/portfolioEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/portfolioEN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parcours.html" beforeDir="false" afterPath="$PROJECT_DIR$/parcours.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passion.html" beforeDir="false" afterPath="$PROJECT_DIR$/passion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/OAuth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/OAuthTokenProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/PHPMailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/POP3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/SMTP.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update form.php after a hosting change">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +15,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/PHPMailer-master/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,7 +32,50 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/php-parallel-lint/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/php-parallel-lint/php-console-color" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/composer" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpcompatibility/php-compatibility" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/yoast/phpunit-polyfills" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/PHPMailer-master/vendor/php-parallel-lint/php-parallel-lint" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="2BZVKwSRAlwxCkbmdn2m26YYmnp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -129,6 +143,7 @@
       <workItem from="1672731429034" duration="2996000" />
       <workItem from="1672830604248" duration="21000" />
       <workItem from="1672830676924" duration="3803000" />
+      <workItem from="1672836234087" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="Add icon in the &lt;head&gt;">
       <created>1657628459169</created>
@@ -158,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662132014860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update form.php after a hosting change">
+      <created>1672836297144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672836297144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +208,7 @@
     <MESSAGE value="Chnage my age and some small details" />
     <MESSAGE value="Change some small details" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update form.php after a hosting change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update form.php after a hosting change" />
   </component>
 </project>
