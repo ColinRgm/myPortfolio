@@ -31,7 +31,7 @@ items.forEach((item) => {
     item.classList.contains('is-active') && handleIndicator(item);
 });
 
-
+ */
 
 /* -- Carousel ------------------------------------------------------------------------------------------------------ */
 
@@ -68,8 +68,6 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-
-
 /* -- Mettre l'âge à jour automatiquement ---------------------------------------------------------------------------
 
 ---- Charger la date au rechargement de la page ----
@@ -81,7 +79,6 @@ function getAge(date) {
 }
 
 alert(getAge(new Date(1999, 8, 11))); -- Date(année, mois, jour) -- */
-
 
 
 /* -- Switch --------------------------------------------------------------------------------------------------------
@@ -157,3 +154,4 @@ $(".button").click(function () {
 $(".text").click(function () {
     basicTimeline.play();
 });
+

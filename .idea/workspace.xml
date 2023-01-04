@@ -4,13 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Change some small details" />
+    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/at-sign.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/at-sign.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/black.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/dl.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/dl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/downArrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/downArrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Icons/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/icehockey.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icehockey.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/it.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/it.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/mma.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/mma.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/projectOne.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projectOne.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/projectTwo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projectTwo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/tattoo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/tattoo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/careerEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/careerEN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/contactEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/contactEN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/indexEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/indexEN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/passionEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/passionEN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/portfolioEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/portfolioEN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parcours.html" beforeDir="false" afterPath="$PROJECT_DIR$/parcours.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passion.html" beforeDir="false" afterPath="$PROJECT_DIR$/passion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/OAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/OAuthTokenProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/PHPMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/POP3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/SMTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer-master/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -39,19 +74,23 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/colinregamey/Documents/Tout/Code/Personnel/myPortfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/colinregamey/Documents/Général/Personnel/projetsWeb/myPortfolio_DEV/php&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ide.date.format&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.JavaScript&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +116,19 @@
       <workItem from="1660226162370" duration="620000" />
       <workItem from="1660294626338" duration="1892000" />
       <workItem from="1660648739171" duration="396000" />
+      <workItem from="1662131997718" duration="659000" />
+      <workItem from="1664539151638" duration="4319000" />
+      <workItem from="1664957037793" duration="489000" />
+      <workItem from="1665642894959" duration="1749000" />
+      <workItem from="1665648955041" duration="712000" />
+      <workItem from="1667460867193" duration="134000" />
+      <workItem from="1670149225606" duration="23000" />
+      <workItem from="1671793102419" duration="9771000" />
+      <workItem from="1672727161183" duration="1778000" />
+      <workItem from="1672729321261" duration="1958000" />
+      <workItem from="1672731429034" duration="2996000" />
+      <workItem from="1672830604248" duration="21000" />
+      <workItem from="1672830676924" duration="3803000" />
     </task>
     <task id="LOCAL-00001" summary="Add icon in the &lt;head&gt;">
       <created>1657628459169</created>
@@ -99,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660648850855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1662132014860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662132014860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +185,7 @@
     <MESSAGE value="Add icon in the &lt;head&gt;" />
     <MESSAGE value="Chnage my age and some small details" />
     <MESSAGE value="Change some small details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change some small details" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
