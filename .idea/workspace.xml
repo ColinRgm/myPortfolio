@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update form.php after a hosting change">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/form.php" afterDir="false" />
+    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update contact.html">
+      <change afterPath="$PROJECT_DIR$/php/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icehockey.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/it.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mma.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/projectOne.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/projectTwo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tattoo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passion.html" beforeDir="false" afterPath="$PROJECT_DIR$/passion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +98,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/colinregamey/Documents/Général/Personnel/projetsWeb/myPortfolio_DEV/php&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/colinregamey/Documents/Général/Web/Personnel/myPortfolio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -143,7 +153,12 @@
       <workItem from="1672731429034" duration="2996000" />
       <workItem from="1672830604248" duration="21000" />
       <workItem from="1672830676924" duration="3803000" />
-      <workItem from="1672836234087" duration="758000" />
+      <workItem from="1672836234087" duration="2122000" />
+      <workItem from="1672838662655" duration="5649000" />
+      <workItem from="1672899738050" duration="642000" />
+      <workItem from="1672903129152" duration="2000" />
+      <workItem from="1672903139966" duration="825000" />
+      <workItem from="1673432282967" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="Add icon in the &lt;head&gt;">
       <created>1657628459169</created>
@@ -180,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672836297144</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update contact.html">
+      <created>1672837183464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672837183464</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +231,7 @@
     <MESSAGE value="Change some small details" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update form.php after a hosting change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update form.php after a hosting change" />
+    <MESSAGE value="Update contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update contact.html" />
   </component>
 </project>
