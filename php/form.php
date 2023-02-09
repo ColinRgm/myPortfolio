@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
 
 function reCaptcha($recaptcha)
 {
-    $secret = "6Lext84jAAAAAKL-uJPTSYeWlDoIeeHV3_xIjIJO";
+    $secret = "6Ldsi-8jAAAAAOiPD77iQ3TSxJyv3HHdz29YvZWc";
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $postvars = array("secret" => $secret, "response" => $recaptcha, "remoteip" => $ip);
