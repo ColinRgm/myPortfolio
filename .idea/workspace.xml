@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update contact.html">
+    <list default="true" id="3d486adc-b598-4d44-9d9f-6db1e6c15a94" name="Changes" comment="Update general">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/indexEN.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/indexEN.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +155,10 @@
       <workItem from="1674050712430" duration="81000" />
       <workItem from="1674218071019" duration="2540000" />
       <workItem from="1674384887191" duration="94000" />
-      <workItem from="1675933349074" duration="701000" />
+      <workItem from="1675933349074" duration="3895000" />
+      <workItem from="1676291293177" duration="9000" />
+      <workItem from="1676293230633" duration="146000" />
+      <workItem from="1676293393973" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="Add icon in the &lt;head&gt;">
       <created>1657628459169</created>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673434252764</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update general">
+      <created>1675934077499</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934077499</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +246,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Update form.php after a hosting change" />
     <MESSAGE value="Update contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update contact.html" />
+    <MESSAGE value="Update general" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update general" />
   </component>
 </project>
